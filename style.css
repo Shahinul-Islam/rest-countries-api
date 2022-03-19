@@ -1,0 +1,16 @@
+img {
+  height: 60px;
+  width: 100px;
+}
+.countries {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.single-country {
+  border: 2px solid purple;
+  /* margin: 5px; */
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
